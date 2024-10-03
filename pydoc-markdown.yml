@@ -1,0 +1,8 @@
+loader:
+  search_path: ["."]
+  modules: ["docstrings"]  # Aquí "docstrings" es el archivo Python sin la extensión .py
+
+render:
+  format: markdown
+  output: reference.md  # El archivo de salida se llamará reference.md
+
